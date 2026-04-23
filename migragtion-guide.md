@@ -1,3 +1,8 @@
+Prompt GPT
+```text
+Create a prioritized plan for a series of discrete, self-contained projects to systematically migrate the VistA/M developer experience to a modern VSCode git CI/CD TDD based one.  Start with generic high yield broad-audience ones (general M language related, VSCode related) that all the downstream more specific tooling would re-use as part of the workflow.  also make a prioritized list of those things that should be done outside the M langauge / outside of VistA so that it can live in the most modern ecosystem.
+```
+
 A practical migration should proceed as a **layered program of small, composable projects**, each delivering standalone value while enabling downstream work. The sequence below prioritizes **broad reuse, minimal coupling to VistA internals, and maximum leverage of modern tooling**.
 
 ---
